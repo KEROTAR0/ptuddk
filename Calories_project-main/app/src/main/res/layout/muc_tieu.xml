@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/muc_tieu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/btn_muc_tieu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:background="@drawable/back"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/goal_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tăng cân"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="290dp"/>
+
+        <EditText
+            android:id="@+id/edit_kilogram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="310dp"
+            android:hint="XX"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/calories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NaN"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"/>
+
+    </LinearLayout>
+</LinearLayout>
